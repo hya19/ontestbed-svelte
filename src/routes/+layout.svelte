@@ -1,17 +1,17 @@
 <script>
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
-	import '../app.css';
+	import '../app.css'; // Remove this line if not needed
 	let pageTitle;
 
 // 페이지 제목을 읽어오는 함수
 	function getPageTitle() {
-  		pageTitle = document.title;
+		pageTitle = document.title;
 	}
 
 // 컴포넌트가 마운트될 때 페이지 제목을 읽어옴
 	onMount(() => {
-  		getPageTitle();
+		getPageTitle();
 	});
 </script>
 
