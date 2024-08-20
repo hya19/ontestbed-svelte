@@ -1,10 +1,15 @@
-<script>
-    let title_t = 'some value'; // Export the variable
-</script>
-
 <svelte:head>
-    <title>메인 페이지</title> 
+    <title>Main Page</title> 
 </svelte:head>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<!-- 2번 : 제목 -->
+<div class="text-black w-11/12 min-h-96 bg-rose-300 text-6xl rounded-2xl text-center align-middle shadow-xl"><br><br>
+    임시개통
+    <br>
+</div>
+
+
+<!-- 3번 : 본문 -->
+<div class="text-black w-11/12 bg-rose-50 text-xl rounded-2xl text-center align-middle shadow-xl"><br><br>
+    text
+<br><br><br></div>
